@@ -1,0 +1,159 @@
+.gallery .control-button {
+  color: #ccc;
+  color: rgba(255, 0, 255, 0.8);
+}
+
+.gallery .control-button:hover {
+  color: white;
+  color: rgba(255, 0, 255, 1);
+}
+
+/*
+	Theme controls how everything looks in Gallery CSS.
+*/
+.gallery {
+  position: relative;
+}
+
+.gallery .item {
+  height: 400px;
+  overflow: hidden;
+  text-align: left;
+  background: #4d87e2;
+}
+
+.gallery .item img{
+  margin-left: 5%;
+  width: 618px;
+  height: 900px;
+}
+
+.gallery .controls {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+.gallery .control-button {
+  display: inline-block;
+  margin: 0 .02em;
+  font-size: 3em;
+  text-align: center;
+  text-decoration: none;
+  transition: color .1s;
+}
+
+@media (max-width: 1950px){
+  .gallery .item img{
+  margin-left: 4%;
+  width: auto;
+  height: 680px;
+  }
+}
+
+@media (max-width: 1750px){
+  .gallery .item img{
+  margin-left: 4%;
+  width: auto;
+  height: 575px;
+  }
+}
+
+@media (max-width: 1650px){
+  .gallery .item img{
+  margin-left: 4%;
+  width: auto;
+  height: 550px;
+  }
+}
+
+@media (max-width: 1200px){
+  .gallery .item img{
+  margin-left: 4%;
+  width: auto;
+  height: 490px;
+  }
+}
+
+@media (max-width: 1100px){
+  .gallery .item img{
+  margin-left: 4%;
+  width: auto;
+  height: 460px;
+  }
+}
+
+@media (max-width: 950px){
+  .gallery .item img{
+  margin-left: 4%;
+  width: auto;
+  height: 420px;
+  }
+}
+
+@media (max-width: 875px){
+  .gallery .item img{
+  margin-left: 4%;
+  width: auto;
+  height: 345px;
+  }
+}
+
+@media (max-width: 810px){
+  .gallery .item img{
+  margin-left: 1.5%;
+  width: auto;
+  height: 325px;
+  }
+}
+
+@media (max-width: 750px){
+  .gallery .item img{
+  margin-left: 1px;
+  width: auto;
+  height: 290px;
+  }
+}
+
+@media (max-width: 675px){
+  .gallery .item img{
+  margin-left: 1px;
+  width: auto;
+  height: 200px;
+  }
+}
+
+@media (max-width: 600px){
+  .gallery .item img{
+  margin-left: 1px;
+  width: 130px;
+  height: 100%;
+  }
+}
+
+@media (max-width: 575px){
+  .gallery .item img{
+  margin-left: 1px;
+  width: 115px;
+  height: 167px;
+  }
+}
+
+@media (max-width: 500px){
+  .gallery .item img{
+  margin-left: 1px;
+  width: 100px;
+  height: 145px;
+  }
+}
+
+@media (max-width: 350px){
+  .gallery .item img{
+  margin-left: 1px;
+  width: 85px;
+  height: 145px;
+  }
+}
+
+
+

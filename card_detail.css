@@ -1,0 +1,491 @@
+
+
+
+/*DETALHES DAS CARTAS NO SLIDE*/
+
+#details{
+	font-size:40px;
+	width:90%;
+}
+
+#details tr td{
+	padding:0;
+}
+
+#details .item_box {
+	position:relative;
+	background:rgba(76, 6, 138,0.75);
+	color: white;
+	text-shadow: -2.5px 0 blue, 0 2.5px blue, 2.5px 0 blue, 0 -2.5px blue;
+	border:solid 3.5px purple;
+	text-align:left;
+	padding:5px 10px;
+	border-radius:5px;
+	height:60px;
+	line-height:1.6em;
+}
+
+#details .item_box b{
+	color: black;
+	text-shadow: -2px 0 red, 0 2px red, 2px 0 red, 0 -2px red !important;
+}
+
+#details .item_box_text b{
+	color: black;
+	text-shadow: -2px 0 red, 0 2px red, 2px 0 red, 0 -2px red !important;
+}
+
+#details .item_box .item_box_title{
+	position:absolute;
+	left:10px;
+	top:5px;
+}
+
+#details .item_box .item_box_value{
+	position:absolute;
+	right:10px;
+}
+
+#details .item_box_text {
+	position:relative;
+	color: white;
+	text-shadow: -2.5px 0 blue, 0 2.5px blue, 2.5px 0 blue, 0 -2.5px blue;
+	background:rgba(76, 6, 138,0.75);
+	border:solid 3.5px purple;
+	text-align:left;
+	padding:5px 10px;
+	border-radius:5px;
+	line-height:1.5em;
+}
+
+@media (max-width: 1750px){
+	#details{
+	font-size:30px;
+	width:90%;
+}
+	#details .item_box {
+	position:relative;
+	background:rgba(76, 6, 138,0.75);
+	color: white;
+	text-shadow: -2.1px 0 blue, 0 2.1px blue, 2.1px 0 blue, 0 -2.1px blue;
+	border:solid 3.5px purple;
+	text-align:left;
+	padding:5px 10px;
+	border-radius:5px;
+	height:60px;
+	line-height:1.6em;
+}
+
+}
+
+@media (max-width: 1650px){
+	#details{
+	font-size:29px;
+	width:90%;
+}
+	#details .item_box {
+	position:relative;
+	background:rgba(76, 6, 138,0.75);
+	color: white;
+	text-shadow: -2px 0 blue, 0 2px blue, 2px 0 blue, 0 -2px blue;
+	border:solid 3.5px purple;
+	text-align:left;
+	padding:5px 10px;
+	border-radius:5px;
+	height:60px;
+	line-height:1.6em;
+}
+
+}
+
+@media (max-width: 1575px){
+  	#details{
+	font-size:27.5px;
+	width:90%;
+}
+	#details .item_box {
+	position:relative;
+	background:rgba(76, 6, 138,0.75);
+	color: white;
+	text-shadow: -2px 0 blue, 0 2px blue, 2px 0 blue, 0 -2px blue;
+	border:solid 3px purple;
+	text-align:left;
+	padding:5px 10px;
+	border-radius:5px;
+	height:60px;
+	line-height:1.6em;
+}
+
+}
+
+@media (max-width: 1475px){
+  	#details{
+	font-size:26px;
+	width:90%;
+}
+	#details .item_box {
+	position:relative;
+	background:rgba(76, 6, 138,0.75);
+	color: white;
+	text-shadow: -2px 0 blue, 0 2px blue, 2px 0 blue, 0 -2px blue;
+	border:solid 3px purple;
+	text-align:left;
+	padding:5px 10px;
+	border-radius:5px;
+	height:55px;
+	line-height:1.6em;
+}
+
+}
+
+@media (max-width: 1200px){
+  	#details{
+	font-size:23px;
+	width:90%;
+}
+	#details .item_box {
+	position:relative;
+	background:rgba(76, 6, 138,0.75);
+	color: white;
+	text-shadow: -1.8px 0 blue, 0 1.8px blue, 1.8px 0 blue, 0 -1.8px blue;
+	border:solid 3px purple;
+	text-align:left;
+	padding:5px 10px;
+	border-radius:5px;
+	height:50px;
+	line-height:1.6em;
+}
+	#details .item_box_text {
+	position:relative;
+	color: white;
+	text-shadow: -1.8px 0 blue, 0 1.8px blue, 1.8px 0 blue, 0 -1.8px blue;
+	background:rgba(76, 6, 138,0.75);
+	border:solid 3.5px purple;
+	text-align:left;
+	padding:5px 10px;
+	border-radius:5px;
+	line-height:1.5em;
+}
+
+}
+
+@media (max-width: 1100px){
+  	#details{
+	font-size:21px;
+	width:90%;
+}
+	#details .item_box {
+	position:relative;
+	background:rgba(76, 6, 138,0.75);
+	color: white;
+	text-shadow: -1.7px 0 blue, 0 1.7px blue, 1.7px 0 blue, 0 -1.7px blue;
+	border:solid 3px purple;
+	text-align:left;
+	padding:5px 10px;
+	border-radius:5px;
+	height:46px;
+	line-height:1.6em;
+}
+	#details .item_box_text {
+	position:relative;
+	color: white;
+	text-shadow: -1.7px 0 blue, 0 1.7px blue, 1.7px 0 blue, 0 -1.7px blue;
+	background:rgba(76, 6, 138,0.75);
+	border:solid 3px purple;
+	text-align:left;
+	padding:5px 10px;
+	border-radius:5px;
+	line-height:1.5em;
+}
+
+}
+
+@media (max-width: 950px){
+  	#details{
+	font-size:19px;
+	width:90%;
+}
+	#details .item_box {
+	position:relative;
+	background:rgba(76, 6, 138,0.75);
+	color: white;
+	text-shadow: -1.3px 0 blue, 0 1.3px blue, 1.3px 0 blue, 0 -1.3px blue;
+	border:solid 2px purple;
+	text-align:left;
+	padding:5px 10px;
+	border-radius:5px;
+	height:40px;
+	line-height:1.6em;
+}
+	#details .item_box_text {
+	position:relative;
+	color: white;
+	text-shadow: -1.3px 0 blue, 0 1.3px blue, 1.3px 0 blue, 0 -1.3px blue;
+	background:rgba(76, 6, 138,0.75);
+	border:solid 2px purple;
+	text-align:left;
+	padding:5px 10px;
+	border-radius:5px;
+	line-height:1.5em;
+}
+
+}
+
+@media (max-width: 875px){
+  	#details{
+	font-size:16.5px;
+	width:90%;
+}
+	#details .item_box {
+	position:relative;
+	background:rgba(76, 6, 138,0.75);
+	color: white;
+	text-shadow: -1.3px 0 blue, 0 1.3px blue, 1.3px 0 blue, 0 -1.3px blue;
+	border:solid 2px purple;
+	text-align:left;
+	padding:3px 8px;
+	border-radius:5px;
+	height:30px;
+	line-height:1.6em;
+}
+	#details .item_box_text {
+	position:relative;
+	color: white;
+	text-shadow: -1.3px 0 blue, 0 1.3px blue, 1.3px 0 blue, 0 -1.3px blue;
+	background:rgba(76, 6, 138,0.75);
+	border:solid 2px purple;
+	text-align:left;
+	padding:3px 8px;
+	border-radius:5px;
+	line-height:1.5em;
+}
+
+}
+
+@media (max-width: 800px){
+  	#details{
+	font-size:21px;
+	width:90%;
+}
+	#details .item_box {
+	position:relative;
+	background:rgba(76, 6, 138,0.75);
+	color: white;
+	text-shadow: -1.3px 0 blue, 0 1.3px blue, 1.3px 0 blue, 0 -1.3px blue;
+	border:solid 2px purple;
+	text-align:left;
+	padding:3px 6px;
+	border-radius:5px;
+	height:30px;
+	line-height:1.6em;
+}
+	#details .item_box_text {
+	position:relative;
+	color: white;
+	text-shadow: -1.3px 0 blue, 0 1.3px blue, 1.3px 0 blue, 0 -1.3px blue;
+	background:rgba(76, 6, 138,0.75);
+	border:solid 2px purple;
+	text-align:left;
+	padding:3px 6px;
+	border-radius:5px;
+	line-height:1.5em;
+}
+	#details .item_box b{
+	color: black;
+	text-shadow: -1.5px 0 red, 0 1.5px red, 1.5px 0 red, 0 -1.5px red !important;
+}
+
+#details .item_box_text b{
+	color: black;
+	text-shadow: -1.5px 0 red, 0 1.5px red, 1.5px 0 red, 0 -1.5px red !important;
+}
+}
+
+@media (max-width: 750px){
+  	#details{
+	font-size:13px;
+	width:90%;
+}
+	#details .item_box {
+	position:relative;
+	background:rgba(76, 6, 138,0.75);
+	color: white;
+	text-shadow: -1.3px 0 blue, 0 1.3px blue, 1.3px 0 blue, 0 -1.3px blue;
+	border:solid 2px purple;
+	text-align:left;
+	padding:1px 2px;
+	border-radius:5px;
+	height:24px;
+	line-height:1.6em;
+}
+	#details .item_box_text {
+	position:relative;
+	color: white;
+	text-shadow: -1.3px 0 blue, 0 1.3px blue, 1.3px 0 blue, 0 -1.3px blue;
+	background:rgba(76, 6, 138,0.75);
+	border:solid 2px purple;
+	text-align:left;
+	padding:1px 2px;
+	border-radius:5px;
+	line-height:1.5em;
+}
+	
+}
+
+@media (max-width: 675px){
+  	#details{
+	font-size:21px;
+	width:90%;
+}
+	#details .item_box {
+	position:relative;
+	background:rgba(76, 6, 138,0.75);
+	color: white;
+	text-shadow: -1.3px 0 blue, 0 1.3px blue, 1.3px 0 blue, 0 -1.3px blue;
+	border:solid 1px purple;
+	text-align:left;
+	padding:0px 0px;
+	border-radius:5px;
+	height:25px;
+	line-height:1.6em;
+}
+	#details .item_box_text {
+	position:relative;
+	color: white;
+	text-shadow: -1.3px 0 blue, 0 1.3px blue, 1.3px 0 blue, 0 -1.3px blue;
+	background:rgba(76, 6, 138,0.75);
+	border:solid 1px purple;
+	text-align:left;
+	padding:0px 0px;
+	border-radius:5px;
+	line-height:1.5em;
+}
+	#details .item_box b{
+	color: black;
+	text-shadow: -1.3px 0 red, 0 1.3px red, 1.3px 0 red, 0 -1.3px red !important;
+}
+
+#details .item_box_text b{
+	color: black;
+	text-shadow: -1.3px 0 red, 0 1.3px red, 1.3px 0 red, 0 -1.3px red !important;
+}	
+}
+
+@media (max-width: 600px){
+  	#details{
+	font-size:21px;
+	width:90%;
+}
+	#details .item_box {
+	position:relative;
+	background:rgba(76, 6, 138,0.75);
+	color: white;
+	text-shadow: -1.3px 0 blue, 0 1.3px blue, 1.3px 0 blue, 0 -1.3px blue;
+	border:solid 1px purple;
+	text-align:left;
+	padding:0px 0px;
+	border-radius:5px;
+	height:20px;
+	line-height:1.6em;
+}
+	#details .item_box_text {
+	position:relative;
+	color: white;
+	text-shadow: -1.3px 0 blue, 0 1.3px blue, 1.3px 0 blue, 0 -1.3px blue;
+	background:rgba(76, 6, 138,0.75);
+	border:solid 1px purple;
+	text-align:left;
+	padding:0px 0px;
+	border-radius:5px;
+	line-height:1.5em;
+}
+	#details .item_box b{
+	color: black;
+	text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red !important;
+}
+
+#details .item_box_text b{
+	color: black;
+	text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red !important;
+}	
+}
+
+@media (max-width: 500px){
+  	#details{
+	font-size:9px;
+	width:90%;
+}
+	#details .item_box {
+	position:relative;
+	background:rgba(76, 6, 138,0.75);
+	color: white;
+	text-shadow: -1.3px 0 blue, 0 1.3px blue, 1.3px 0 blue, 0 -1.3px blue;
+	border:solid 1px purple;
+	text-align:left;
+	padding:0px 0px;
+	border-radius:5px;
+	height:17px;
+	line-height:1.6em;
+}
+	#details .item_box_text {
+	position:relative;
+	color: white;
+	text-shadow: -1.3px 0 blue, 0 1.3px blue, 1.3px 0 blue, 0 -1.3px blue;
+	background:rgba(76, 6, 138,0.75);
+	border:solid 1px purple;
+	text-align:left;
+	padding:0px 0px;
+	border-radius:5px;
+	line-height:1.5em;
+}
+	#details .item_box b{
+	color: black;
+	text-shadow: -0.6px 0 red, 0 0.6px red, 0.6px 0 red, 0 -0.6px red !important;
+}
+
+#details .item_box_text b{
+	color: black;
+	text-shadow: -0.6px 0 red, 0 0.6px red, 0.6px 0 red, 0 -0.6px red !important;
+}	
+}
+
+@media (max-width: 350px){
+  	#details{
+	font-size:8px;
+	width:90%;
+}
+	#details .item_box {
+	position:relative;
+	background:rgba(76, 6, 138,0.75);
+	color: white;
+	text-shadow: -1.3px 0 blue, 0 1.3px blue, 1.3px 0 blue, 0 -1.3px blue;
+	border:solid 1px purple;
+	text-align:left;
+	padding:0px 0px;
+	border-radius:5px;
+	height:17px;
+	line-height:1.6em;
+}
+	#details .item_box_text {
+	position:relative;
+	color: white;
+	text-shadow: -1.3px 0 blue, 0 1.3px blue, 1.3px 0 blue, 0 -1.3px blue;
+	background:rgba(76, 6, 138,0.75);
+	border:solid 1px purple;
+	text-align:left;
+	padding:0px 0px;
+	border-radius:5px;
+	line-height:1.5em;
+}
+	#details .item_box b{
+	color: black;
+	text-shadow: -0.6px 0 red, 0 0.2px red, 0.6px 0 red, 0 -0.6px red !important;
+}
+
+#details .item_box_text b{
+	color: black;
+	text-shadow: -0.6px 0 red, 0 0.6px red, 0.6px 0 red, 0 -0.6px red !important;
+}	
+}
+
+
